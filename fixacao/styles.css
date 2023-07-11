@@ -46,3 +46,26 @@
     padding: 20px;
     width: 100%;
   }
+
+@media screen and (max-width: 800px) {
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  main{
+    flex-direction: column;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer{
+    position: absolute;
+    bottom: -520px;
+  }
+}
